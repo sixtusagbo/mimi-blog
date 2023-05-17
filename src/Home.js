@@ -1,17 +1,22 @@
-const Home = () => {
-  const handleClick = (e) => {
-    console.log("Clicked", e);
-  }
+import { useState } from "react";
 
-  const handleClickAgain = (noun, e) => {
-    console.log(`Hello ${noun}!`, e.target);
-  }
+const Home = () => {
+  let [name, setName] = useState("Miralo");
+  let [age, setAge] = useState(19);
+
+  const handleNameChange = () => {
+    setName("Sixtus");
+  };
+
+  const incrementAge = () => setAge(age += 1);
 
   return (
     <div className="home">
       <h2>Homepage</h2>
-      <button onClick={handleClick}>Click me</button><br />
-      <button onClick={(e) => handleClickAgain("World", e)}>Click me again o</button>
+      <p>My name is {name}.</p>
+      <p>I am {age} years old.</p>
+      <button onClick={handleNameChange}>Change my name</button>
+      <button onClick={incrementAge}>Increase age</button>
     </div>
   );
 }
