@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "serve": "npx json-server --watch data/db.json --port 8001"
   },
   "eslintConfig": {
     "extends": [
