@@ -61,3 +61,13 @@
 .post_preview a {
   text-decoration: none;
 }
+
+.post_details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.post_details div {
+  margin: 20px 0;
+}

@@ -1,13 +1,13 @@
 {
   "posts": [
     {
-      "title": "This is post one",
+      "title": "Let's try something new!",
       "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur!",
       "author": "Sixtus",
       "id": 1
     },
     {
-      "title": "This is post two",
+      "title": "Getting Started with React",
       "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus vitae eligendi voluptatum eum! Quos quisquam harum, iste modi sunt, in excepturi nesciunt corrupti mollitia minus voluptatem expedita esse aspernatur!",
       "author": "Miracle",
       "id": 2
