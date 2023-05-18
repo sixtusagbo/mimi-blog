@@ -4,12 +4,24 @@ const Create = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("Sixtus");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const post = { title, body, author };
 
-    console.log(post);
+    setIsLoading(true);
+
+    setTimeout(() => {
+      fetch('http://localhost:8001/posts', {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(post)
+      }).then(() => {
+        console.log("New post added successfully!");
+        setIsLoading(false);
+      });
+    }, 800);
   }
 
   return (
@@ -25,7 +37,8 @@ const Create = () => {
           <option value="Sixtus">Sixtus</option>
           <option value="Miracle">Miracle</option>
         </select>
-        <button>Create Post</button>
+        {!isLoading && <button>Create Post</button>}
+        {isLoading && <button disabled>Adding new post...</button>}
       </form>
     </div>
   );
