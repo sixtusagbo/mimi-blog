@@ -131,3 +131,7 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.not_found * {
+  margin: 14px auto;
+}
