@@ -66,6 +66,8 @@
   text-decoration: none;
 }
 
+/* Post Details */
+
 .post_details h2 {
   font-size: 20px;
   color: var(--primary);
@@ -74,6 +76,15 @@
 
 .post_details div {
   margin: 20px 0;
+}
+
+.post_details button {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Create post form */
